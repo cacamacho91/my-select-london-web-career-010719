@@ -9,3 +9,5 @@ def my_select(collection)
 
   matching_elements
 end
+
+my_select([])
