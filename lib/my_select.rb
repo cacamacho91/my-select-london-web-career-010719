@@ -9,6 +9,3 @@ def my_select(collection)
 
   matching_elements
 end
-
-
-my_select([1,2,3,4])
