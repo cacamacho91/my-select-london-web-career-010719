@@ -3,7 +3,7 @@ def my_select(collection)
   matching_elements = []
 
   while iterator < collection.length
-    matching_elements << yield(collection[iterator]) if yield(collection[iterator])
+    matching_elements << collection[iterator] if yield(collection[iterator])
     iterator += 1
   end
 
