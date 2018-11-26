@@ -6,6 +6,5 @@ def my_select(collection)
     matching_elements << yield(collection[iterator]) if yield
     itertor += 1
   end
-
-
+  matching_elements
 end
