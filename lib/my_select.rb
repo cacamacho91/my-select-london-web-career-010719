@@ -3,9 +3,12 @@ def my_select(collection)
   matching_elements = []
 
   while iterator < collection.length
-    
+
     iterator += 1
   end
 
   matching_elements
 end
+
+
+my_select([1,2,3,4])
